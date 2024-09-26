@@ -1,0 +1,115 @@
+/* css/estilotrans.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Asegúrate de que este sea el color de fondo deseado */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #333; /* Color del menú de navegación */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #575757; /* Color al pasar el mouse */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamaño de título principal */
+}
+
+h2 {
+    font-size: 1.8em; /* Tamaño de subtítulo */
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px; /* Espaciado interno del main */
+}
+
+.caja {
+    background-color: white; /* Color de fondo de las cajas */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px 0; /* Margen vertical entre cajas */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.sombra-externa {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra externa */
+}
+
+.sombra-interna {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra interna */
+}
+
+.halo {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8); /* Efecto halo */
+}
+
+.sombra-multiple {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), 
+                -2px -2px 5px rgba(0, 0, 255, 0.3); /* Múltiples sombras */
+}
+
+.footer {
+    background-color: #333; /* Color del pie de página */
+    color: white; /* Color del texto en el pie */
+    text-align: center; /* Centrando texto */
+    padding: 20px 0; /* Espaciado vertical */
+}
+
+.footer-container {
+    display: flex; /* Uso de flexbox para el pie */
+    justify-content: space-around; /* Espaciado entre secciones */
+}
+
+.footer-section {
+    flex: 1; /* Secciones flexibles */
+    margin: 0 20px; /* Margen entre secciones */
+}
+
+.footer-section h3 {
+    margin-bottom: 10px; /* Margen inferior de títulos */
+}
+
+.footer-section ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+.footer-section a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.footer-bottom {
+    margin-top: 20px; /* Margen superior */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}
